@@ -1,0 +1,14 @@
+#box div{
+    background-color: rebeccapurple;
+    padding: 20px;
+    border: 10px solid pink;
+    margin: 40px;
+}
+
+#box div {
+    width: 200px;
+    aspect-ratio: 1/1; /* Use this for height instead */
+    border-radius: 10px;
+    box-shadow: -5px -5px 50px grey; /* box-shadow: -y axis, -x axis and last one spreads */
+    border-radius: 50%;
+}

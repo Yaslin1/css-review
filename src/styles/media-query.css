@@ -1,0 +1,64 @@
+#media div {
+    padding: 20px;
+}
+#media div:nth-child(1) {
+    background: salmon;
+}
+
+#media div:nth-child(2) {
+    background-color: blueviolet;
+}
+
+/* Minimum https://getbootstrap.com/docs/5.0/layout/breakpoints/ */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    #media div:nth-child(1) {
+        background-color: blueviolet;
+    }
+    #media div:nth-child(2) {
+        background-color: blue;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #media div:nth-child(1) {
+        background-color: pink;
+    }
+    #media div:nth-child(2) {
+        background-color: aqua;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+#media div:nth-child(1) {
+    background-color: orange;
+}
+#media div:nth-child(2) {
+    background-color: orangered;
+}
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+#media div:nth-child(1) {
+    background-color: orchid;
+}
+#media div:nth-child(2) {
+    background-color: greenyellow;
+}
+}
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+#media div:nth-child(1) {
+    background-color: grey;
+    border: 5px dotted;
+}
+#media div:nth-child(2) {
+    background-color: blanchedalmond;
+    border: 5px dashed;
+}
+}
