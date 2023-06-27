@@ -1,0 +1,15 @@
+.flex-container{
+    display: flex;/* puts them in a row */
+    flex-wrap: wrap; /* wraps it */
+    flex-direction: row-reverse; /* Reverse row */
+    flex-flow: row wrap; /* combines flex-direction and flex-wrap */
+    background-color: yellow;
+    justify-content: center; /* center middle, flex-end right, flex-start left, space-between space in the middle, space-evenly space it envenly */
+    flex-grow: 2; /* grow into the space evenly */
+}
+
+.flex-container div {
+    width: 20%;
+    border: 2px solid black;
+    background-color: green;
+}
